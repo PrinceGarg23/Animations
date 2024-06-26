@@ -95,7 +95,7 @@ export default function Parallax() {
                   />
                 </View>
                 <Image
-                  source={{ uri: item.avatar_url }}
+                  source={ require('../assets/prince.jpg')}
                   style={{
                     width: 60,
                     height: 60,
@@ -105,6 +105,8 @@ export default function Parallax() {
                     position: "absolute",
                     bottom: -30,
                     right: 60,
+                    justifyContent: "center",
+                    alignItems: "center",
                   }}
                 />
               </View>
